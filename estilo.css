@@ -1,0 +1,23 @@
+body{
+    margin:30px;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+figure{
+    text-align: center;
+    
+}
+figcaption{
+    font-weight: bold;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 2px solid rgb(136, 83, 176);
+    margin-bottom: 10px;
+}
