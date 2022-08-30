@@ -1,16 +1,33 @@
-body{
-    margin:30px;
-    
+body {
+    margin: 30px;
+
+
 }
-header{
+
+.navbar {
+    border-radius: 5px;
+}
+
+.cabecera {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
-figure{
+
+.texto {
+    text-align: right;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+figure {
     text-align: center;
-    
+
 }
-figcaption{
+
+figcaption {
     font-weight: bold;
 }
 
@@ -20,4 +37,19 @@ img {
     border-radius: 50%;
     border: 2px solid rgb(136, 83, 176);
     margin-bottom: 10px;
+}
+
+.main-02 {
+    margin-top: 50px;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 2em;
+}
+
+.form {
+    margin-top: 50px;
+    padding: 0 20%;
+    
 }
